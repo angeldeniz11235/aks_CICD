@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: node-web-app
-          image: containerregistry11235.azurecr.io/node-web-app:latest
+          image: containerregistry11235.azurecr.io/nodejs-web-app:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 3000
