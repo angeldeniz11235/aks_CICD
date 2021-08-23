@@ -74,4 +74,4 @@ stages:
       inputs:
         PathtoPublish: '$(System.DefaultWorkingDirectory)/deployment/'
         ArtifactName: 'nodejs-artifact'
-        publishLocation: 'Container'
+        publishLocation: 'Container' 
